@@ -277,3 +277,24 @@ textarea:focus {
   background: -o-linear-gradient(top, white, black);
   background: linear-gradient(to bottom, white, black);
 }
+
+@media (max-width: 1250px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    padding: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+  }
+  nav ul {
+    padding: 25px 0;
+  }
+}
